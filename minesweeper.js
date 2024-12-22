@@ -12,6 +12,28 @@ let gameOver = false;
 
 window.onload = function() {
     startGame();
+    document.getElementById("restart-button").addEventListener("click", restartGame);
+};
+
+function restartGame() {
+    // Reset all variables
+    board = [];
+    minesLocation = [];
+    tilesClicked = 0;
+    flagEnabled = false;
+    gameOver = false;
+
+    // Clear the board HTML
+    document.getElementById("board").innerHTML = "";
+
+    // Reset the mines count display
+    document.getElementById("mines-count").innerText = minesCount;
+
+    // Reset the flag button state
+    document.getElementById("flag-button").style.backgroundColor = "lightgray";
+
+    // Restart the game
+    startGame();
 }
 
 function setMines() {
