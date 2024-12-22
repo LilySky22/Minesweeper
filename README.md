@@ -6,7 +6,7 @@
 
 ## Issues:
 ### - can't restart once you die
-### - the square clicked are teh samee colours as the other oone which cases confusion
+### - the squares clicked are the same colours as the other ones which causes confusion
 
 ## Fixes:
 ### - added restart button
