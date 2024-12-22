@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minesweeper</title>
-        <link rel="stylesheet" href="minesweeper.css">
-        <script src="minesweeper.js"></script>
-    </head>
-
-    <body>
-        <h1>Mines: <span id="mines-count">0</span></h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css">
+    <script src="minesweeper.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Minesweeper</h1>
+        <div class="info">
+            <span id="mines-count">10</span>
+        </div>
         <div id="board"></div>
-        <br>
-        <button id="flag-button">🚩</button>
-    </body>
+        <div class="controls">
+            <button id="flag-button">🚩</button>
+            <button id="restart-button">🔄</button>
+        </div>
+    </div>
+</body>
 </html>
