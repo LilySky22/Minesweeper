@@ -5,7 +5,7 @@
 ## Demo Link:
 
 ## Issues:
-### -
+### - can't restart once you die
 
 ## Fixes:
 ### -
