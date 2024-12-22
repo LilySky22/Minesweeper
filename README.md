@@ -12,4 +12,4 @@
 ### - added restart button
 
 ## Changes:
-### - canged the styling
+### - changed the styling
