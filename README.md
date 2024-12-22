@@ -8,7 +8,7 @@
 ### - can't restart once you die
 
 ## Fixes:
-### -
+### - added restart button
 
 ## Changes:
-### -
+### - canged the styling
